@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Matcha Thiên Nhiên - Bột Trà Xanh Nhật Bản Nguyên Chất | Mua Ngay</title>
+    <meta name="description" content="Khám phá thế giới matcha Nhật Bản cao cấp. Chúng tôi cung cấp bột trà xanh nguyên chất, từ dòng lễ nghi (ceremonial) đến dòng pha chế (culinary). Tìm hiểu cách pha, lợi ích sức khỏe và mua matcha uy tín. Giao hàng toàn quốc.">
+    <meta name="keywords" content="matcha, bột trà xanh, matcha nhật bản, mua matcha, trà xanh matcha, cách pha matcha, lợi ích của matcha, matcha nguyên chất, ceremonial matcha, culinary matcha">
+    <meta name="author" content="Matcha Thiên Nhiên">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://placehold.co/1600x900/2C5F2D/FFFFFF?text=Matcha+Farm');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-green-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-800">Matcha Thiên Nhiên</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#products" class="text-gray-600 hover:text-green-700">Sản Phẩm</a>
+                <a href="#about" class="text-gray-600 hover:text-green-700">Khám Phá Matcha</a>
+                <a href="#benefits" class="text-gray-600 hover:text-green-700">Lợi Ích</a>
+                <a href="#contact" class="text-gray-600 hover:text-green-700">Liên Hệ</a>
+                <a href="#" class="bg-green-700 text-white py-2 px-4 rounded-full hover:bg-green-800 transition duration-300">Mua Ngay</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#products" class="block text-gray-600 hover:text-green-700 py-2">Sản Phẩm</a>
+            <a href="#about" class="block text-gray-600 hover:text-green-700 py-2">Khám Phá Matcha</a>
+            <a href="#benefits" class="block text-gray-600 hover:text-green-700 py-2">Lợi Ích</a>
+            <a href="#contact" class="block text-gray-600 hover:text-green-700 py-2">Liên Hệ</a>
+            <a href="#" class="block bg-green-700 text-white text-center mt-2 py-2 px-4 rounded-full hover:bg-green-800 transition duration-300">Mua Ngay</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white">
+        <div class="bg-black bg-opacity-40 h-full">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Tinh Hoa Trà Đạo Nhật Bản <br> trong Từng Chén Matcha</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Khám phá hương vị nguyên bản và lợi ích tuyệt vời cho sức khỏe từ bột trà xanh matcha 100% tự nhiên, được nghiền từ những búp trà non tốt nhất.</p>
+                <a href="#products" class="bg-white text-green-800 font-bold py-3 px-8 rounded-full text-lg hover:bg-green-100 transition duration-300">Xem Sản Phẩm</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-green-800 mb-10">Sản Phẩm Nổi Bật</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/90EE90/333333?text=Matcha+Ceremonial" alt="Matcha Lễ Nghi (Ceremonial Grade)" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-green-900">Matcha Lễ Nghi (Ceremonial)</h3>
+                        <p class="text-gray-600 mb-4">Dòng matcha cao cấp nhất, vị ngọt umami đậm đà, chuyên dùng trong các nghi lễ trà đạo Nhật Bản.</p>
+                        <div class="text-2xl font-bold text-green-700 mb-4">450.000 VNĐ</div>
+                        <button class="w-full bg-green-700 text-white py-2 px-4 rounded-full hover:bg-green-800 transition duration-300">Thêm vào giỏ</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/3CB371/FFFFFF?text=Matcha+Premium" alt="Matcha Thượng Hạng (Premium Grade)" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-green-900">Matcha Thượng Hạng (Premium)</h3>
+                        <p class="text-gray-600 mb-4">Hương vị cân bằng, phù hợp để uống hàng ngày hoặc pha chế matcha latte, đá xay thơm ngon.</p>
+                        <div class="text-2xl font-bold text-green-700 mb-4">320.000 VNĐ</div>
+                        <button class="w-full bg-green-700 text-white py-2 px-4 rounded-full hover:bg-green-800 transition duration-300">Thêm vào giỏ</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/600x400/2E8B57/FFFFFF?text=Matcha+Culinary" alt="Matcha Pha Chế (Culinary Grade)" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-green-900">Matcha Pha Chế (Culinary)</h3>
+                        <p class="text-gray-600 mb-4">Hương trà đậm đặc, lý tưởng cho việc làm bánh, nấu ăn, làm kem và các món tráng miệng khác.</p>
+                        <div class="text-2xl font-bold text-green-700 mb-4">250.000 VNĐ</div>
+                        <button class="w-full bg-green-700 text-white py-2 px-4 rounded-full hover:bg-green-800 transition duration-300">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Matcha Section -->
+    <section id="about" class="bg-white py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-green-800 mb-12">Khám Phá Thế Giới Matcha</h2>
+            <div class="max-w-4xl mx-auto">
+                <!-- How it's made -->
+                <div class="mb-10">
+                    <h3 class="text-2xl font-semibold text-green-900 mb-4">Matcha được làm ra như thế nào?</h3>
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <img src="https://placehold.co/400x300/A7C4A8/333333?text=Quy+trình+làm+Matcha" alt="Quy trình sản xuất matcha từ lá trà" class="rounded-lg shadow-md w-full md:w-1/3">
+                        <p class="text-gray-700 leading-relaxed">
+                            Matcha bắt nguồn từ những cây trà xanh (Camellia sinensis) được che chắn khỏi ánh nắng mặt trời trong khoảng 3-4 tuần trước khi thu hoạch. Quá trình này làm tăng hàm lượng a-xít amin và a-xít amin, tạo ra vị ngọt umami đặc trưng. Sau khi thu hoạch, những búp trà non được hấp, sấy khô, loại bỏ gân lá để tạo ra "tencha" - nguyên liệu thô của matcha. Cuối cùng, tencha được nghiền chậm bằng cối đá granite thành bột siêu mịn, đó chính là matcha.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- How to prepare -->
+                <div class="mb-10">
+                    <h3 class="text-2xl font-semibold text-green-900 mb-4">Nghệ thuật pha chế Matcha truyền thống</h3>
+                     <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+                        <img src="https://placehold.co/400x300/6B8E23/FFFFFF?text=Pha+chế+Matcha" alt="Bộ dụng cụ pha chế matcha truyền thống" class="rounded-lg shadow-md w-full md:w-1/3">
+                        <div class="text-gray-700 leading-relaxed">
+                           <p class="mb-2">Để thưởng thức một chén matcha đúng điệu, bạn cần một số dụng cụ cơ bản: chén (chawan), cây đánh trà (chasen), và muỗng tre (chashaku).</p>
+                           <ol class="list-decimal list-inside space-y-2">
+                               <li><b>Làm ấm dụng cụ:</b> Tráng chén và làm ướt chasen bằng nước nóng.</li>
+                               <li><b>Đong trà:</b> Dùng chashaku lấy khoảng 2g bột matcha (2 muỗng) cho vào chén.</li>
+                               <li><b>Rót nước:</b> Thêm khoảng 60-80ml nước nóng (khoảng 70-80°C), không dùng nước sôi.</li>
+                               <li><b>Đánh trà:</b> Dùng chasen đánh nhanh theo hình chữ "W" hoặc "M" cho đến khi trà sủi bọt mịn và không còn bột vón cục.</li>
+                               <li><b>Thưởng thức:</b> Uống ngay khi trà còn ấm để cảm nhận trọn vẹn hương vị.</li>
+                           </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grades of Matcha -->
+                <div class="mb-10">
+                    <h3 class="text-2xl font-semibold text-green-900 mb-4">Các dòng Matcha phổ biến</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">Matcha được phân loại dựa trên chất lượng, hương vị và mục đích sử dụng. Ba dòng chính bao gồm:</p>
+                    <ul class="space-y-3">
+                        <li><b><span class="font-bold">Dòng Lễ Nghi (Ceremonial Grade):</span></b> Chất lượng cao nhất, được làm từ những búp trà non nhất. Có màu xanh ngọc bích, vị ngọt umami sâu, hậu vị êm dịu, không đắng. Thường được dùng để uống trực tiếp (pha với nước nóng).</li>
+                        <li><b><span class="font-bold">Dòng Thượng Hạng (Premium Grade):</span></b> Chất lượng tốt, màu xanh tươi, vị cân bằng giữa ngọt và một chút đắng nhẹ. Là lựa chọn tuyệt vời để uống hàng ngày, pha matcha latte, hoặc các đồ uống cao cấp.</li>
+                        <li><b><span class="font-bold">Dòng Pha Chế (Culinary Grade):</span></b> Có vị trà đậm và gắt hơn, màu xanh sẫm hơn. Lý tưởng để sử dụng làm nguyên liệu trong nấu ăn, làm bánh, sinh tố, kem, nơi hương vị matcha cần nổi bật.</li>
+                    </ul>
+                </div>
+
+                <!-- How to distinguish -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-green-900 mb-4">Cách phân biệt Matcha chất lượng</h3>
+                    <p class="text-gray-700 leading-relaxed">Để chọn được matcha ngon, bạn hãy chú ý đến các yếu tố sau:</p>
+                     <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><b>Màu sắc:</b> Matcha chất lượng cao có màu xanh ngọc bích rực rỡ. Matcha chất lượng thấp thường có màu xanh vàng hoặc nâu.</li>
+                        <li><b>Kết cấu:</b> Bột phải siêu mịn, tơi và không vón cục, cảm giác mượt như lụa khi sờ vào.</li>
+                        <li><b>Mùi hương:</b> Mùi thơm ngọt, tươi mát của cỏ cây, hơi giống mùi tảo biển và sô cô la trắng.</li>
+                        <li><b>Vị:</b> Vị chính là umami (vị ngọt thịt) do hàm lượng L-theanine cao, hậu vị êm, không chát đắng.</li>
+                        <li><b>Nguồn gốc:</b> Matcha ngon nhất đến từ các vùng trồng trà nổi tiếng của Nhật Bản như Uji, Nishio, và Fukuoka.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="bg-green-100 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-green-800 mb-10">Tại Sao Chọn Matcha Của Chúng Tôi?</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-4 rounded-full mb-3 shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-700" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 3.636a1 1 0 011.414 0L10 7.172l3.536-3.536a1 1 0 111.414 1.414L11.414 8.586l3.536 3.536a1 1 0 11-1.414 1.414L10 10.414l-3.536 3.536a1 1 0 01-1.414-1.414L8.586 8.586 5.05 5.05a1 1 0 010-1.414z" clip-rule="evenodd" transform="rotate(45 10 10)" /></svg>
+                    </div>
+                    <h3 class="font-semibold text-lg text-green-900">100% từ Nhật Bản</h3>
+                    <p class="text-gray-600">Nhập khẩu trực tiếp từ vùng Uji, Kyoto.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-4 rounded-full mb-3 shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-700" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <h3 class="font-semibold text-lg text-green-900">Nghiền Bằng Cối Đá</h3>
+                    <p class="text-gray-600">Quy trình truyền thống giữ trọn hương vị.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-4 rounded-full mb-3 shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-700" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zM9 11a1 1 0 112 0v1a1 1 0 11-2 0v-1zm1-4a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <h3 class="font-semibold text-lg text-green-900">Chất Lượng Thượng Hạng</h3>
+                    <p class="text-gray-600">Tuyển chọn từ những búp trà tốt nhất.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-4 rounded-full mb-3 shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-700" viewBox="0 0 20 20" fill="currentColor"><path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /><path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v5.05a2.5 2.5 0 014.9 0V8a1 1 0 00-1-1h-3z" /></svg>
+                    </div>
+                    <h3 class="font-semibold text-lg text-green-900">Giao Hàng Nhanh</h3>
+                    <p class="text-gray-600">Vận chuyển an toàn, nhanh chóng toàn quốc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Health Benefits Section -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-green-800 mb-12">Lợi Ích Của Matcha Đối Với Sức Khỏe</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+                <!-- Benefit 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-green-100 p-5 rounded-full mb-4">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-900 mb-2">Tăng Cường Năng Lượng</h3>
+                    <p class="text-gray-600">L-Theanine kết hợp với caffeine giúp tăng cường sự tập trung và năng lượng bền bỉ mà không gây bồn chồn.</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-green-100 p-5 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-900 mb-2">Giàu Chất Chống Oxy Hóa</h3>
+                    <p class="text-gray-600">Chứa EGCG, một chất chống oxy hóa mạnh mẽ giúp bảo vệ cơ thể khỏi các gốc tự do và làm chậm lão hóa.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-green-100 p-5 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-900 mb-2">Hỗ Trợ Giảm Cân</h3>
+                    <p class="text-gray-600">Thúc đẩy quá trình trao đổi chất và đốt cháy calo, hỗ trợ hiệu quả cho quá trình kiểm soát cân nặng.</p>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-green-100 p-5 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547a2 2 0 00-.547 1.806l.477 2.387a6 6 0 00.517 3.86l.158.318a6 6 0 00.517 3.86l2.387.477a2 2 0 001.806-.547a2 2 0 00.547-1.806l-.477-2.387a6 6 0 00-.517-3.86l-.158-.318a6 6 0 00-.517-3.86l-2.387-.477a2 2 0 00-1.022.547zM12 12a3 3 0 100-6 3 3 0 000 6z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-900 mb-2">Giải Độc Cơ Thể</h3>
+                    <p class="text-gray-600">Hàm lượng diệp lục cao giúp thanh lọc cơ thể, loại bỏ các kim loại nặng và độc tố hóa học.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-green-900 text-white">
+        <div class="container mx-auto px-6 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Matcha Thiên Nhiên</h3>
+                    <p class="text-green-200">Mang hương vị trà xanh Nhật Bản đích thực đến với mọi nhà. Cam kết chất lượng, an toàn và tinh khiết.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Liên Hệ</h3>
+                    <p class="text-green-200 mb-2"><strong>Địa chỉ:</strong> 123 Đường Trà, Quận 1, TP.HCM</p>
+                    <p class="text-green-200 mb-2"><strong>Email:</strong> lienhe@matchathiennhien.com</p>
+                    <p class="text-green-200"><strong>Hotline:</strong> 0987 654 321</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kết Nối Với Chúng Tôi</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-green-200 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+                        <a href="#" class="text-green-200 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg></a>
+                        <a href="#" class="text-green-200 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.795 2.013 10.148 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0-2a7 7 0 110 14 7 7 0 010-14zm6.406-1.18a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" clip-rule="evenodd" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-green-700 mt-8 pt-6 text-center text-green-300 text-sm">
+                <p>&copy; 2024 Matcha Thiên Nhiên. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
